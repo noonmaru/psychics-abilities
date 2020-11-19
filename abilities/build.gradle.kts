@@ -29,7 +29,7 @@ subprojects {
         compileOnly(kotlin("reflect"))
         compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
         compileOnly("com.destroystokyo.paper:paper-api:1.16.4-R0.1-SNAPSHOT")
-        compileOnly("com.github.noonmaru:tap:3.2.4")
+        compileOnly("com.github.noonmaru:tap:3.2.5")
         compileOnly("com.github.noonmaru:psychics:0.9.3")
 
 //        testImplementation("junit:junit:4.13")
@@ -39,7 +39,7 @@ subprojects {
 //        testImplementation("org.slf4j:slf4j-api:1.7.25")
 //        testImplementation("org.apache.logging.log4j:log4j-core:2.8.2")
 //        testImplementation("org.apache.logging.log4j:log4j-slf4j-impl:2.8.2")
-//        testImplementation("org.spigotmc:spigot:1.16.3-R0.1-SNAPSHOT")
+//        testImplementation("org.spigotmc:spigot:1.16.4-R0.1-SNAPSHOT")
     }
 
     tasks {

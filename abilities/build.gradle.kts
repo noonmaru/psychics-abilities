@@ -4,8 +4,6 @@ plugins {
     `maven-publish`
 }
 
-if (version == "unspecified") version = parent!!.version
-
 allprojects {
     repositories {
         mavenCentral()
@@ -15,6 +13,8 @@ allprojects {
 val relocate = (findProperty("relocate") as? String)?.toBoolean() ?: true
 
 subprojects {
+    if (version == "unspecified") version = parent!!.version
+
     apply(plugin = "org.jetbrains.kotlin.jvm")
     apply(plugin = "com.github.johnrengelman.shadow")
 

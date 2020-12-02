@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.4.10"
+    kotlin("jvm") version "1.4.20"
     id("com.github.johnrengelman.shadow") version "5.2.0"
     `maven-publish`
 }
@@ -27,9 +27,9 @@ subprojects {
     dependencies {
         compileOnly(kotlin("stdlib-jdk8"))
         compileOnly(kotlin("reflect"))
-        compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+        compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1")
         compileOnly("com.destroystokyo.paper:paper-api:1.16.4-R0.1-SNAPSHOT")
-        compileOnly("com.github.noonmaru:tap:3.2.5")
+        compileOnly("com.github.noonmaru:tap:3.2.6")
         compileOnly("com.github.noonmaru:psychics:0.9.3")
 
 //        testImplementation("junit:junit:4.13")
